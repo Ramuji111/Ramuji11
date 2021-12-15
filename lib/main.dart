@@ -46,7 +46,56 @@ class _MyHomePageState extends State<MyHomePage> {
               accountEmail: Text('Testemail@gmail.com'),
               currentAccountPicture: CircleAvatar(
                 backgroundImage: NetworkImage('https://i.pinimg.com/originals/bd/cd/4e/bdcd4e097d609543724874b01aa91c76.png'),
-              ) ,)
+              ) ,),
+             ListTile(
+                leading: Icon(Icons.home),
+                title: Text('Year'),
+                onTap: () => {}),
+            ListTile(
+              leading: Icon(Icons.home),
+              title: Text('Month'),
+              onTap: () =>{},),
+            ListTile(
+              leading: Icon(Icons.home),
+              title: Text('Week'),
+              onTap: () => {},),
+            ListTile(
+              leading: Icon(Icons.home),
+              title: Text('Day'),
+              onTap: () => {},),
+            Divider(
+              thickness: 0.5,
+              color: Colors.grey,
+              indent: 16,
+              endIndent: 16,
+            ),
+            ListTile(
+              leading: Icon(Icons.border_color),
+              title: Text('Edit Event'),
+              onTap: () => {},),
+            ListTile(
+              leading: Icon(Icons.settings),
+              title: Text('Settings'),
+              onTap: () => {},),
+            ListTile(
+              leading: Icon(Icons.wb_sunny),
+              title: Text('Dark Mode'),
+              onTap: () => {},),
+            Divider(
+              thickness: 0.5,
+              color: Colors.grey,
+              indent: 16,
+              endIndent: 16,
+            ),
+            ListTile(
+              leading: Icon(Icons.person),
+              title: Text('My Account'),
+              onTap: () => {},),
+            ListTile(
+              leading: Icon(Icons.exit_to_app),
+              title: Text('Logout'),
+              onTap: () => {},),
+
         ]
         ),
       ),
